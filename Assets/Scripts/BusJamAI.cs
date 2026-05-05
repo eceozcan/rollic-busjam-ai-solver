@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Added an enum to manage the AI state
+public enum AISolverState { Idle, Solving, Paused }
+
 public class BusJamAI : MonoBehaviour
 {
     [Header("Dependencies")]
@@ -10,22 +13,43 @@ public class BusJamAI : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private float actionDelay = 1.1f;
     [SerializeField] private bool autoPlay = false;
+    [SerializeField] private float scoreThreshold = 300f;
+
+    // --- NEW STATE VARIABLE ---
+    public AISolverState CurrentState { get; private set; } = AISolverState.Idle;
 
     private bool isProcessing = false;
-    private AISolverLogger logger; // Reference for the logging system
+    private AISolverLogger logger;
 
     private void Start()
     {
-        // Get the logger component and initialize it for the session
         logger = GetComponent<AISolverLogger>();
-        if (logger != null) logger.InitializeLogger(7); // Initializing for Level 7 Analysis
+        if (logger != null) logger.InitializeLogger(7);
     }
 
     private void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.A) || autoPlay) && !isProcessing)
+        // Modified to check if CurrentState is Solving
+        if ((Input.GetKeyDown(KeyCode.A) || autoPlay) && !isProcessing && CurrentState == AISolverState.Solving)
         {
             StartCoroutine(ProcessBestMove());
+        }
+    }
+
+    // --- NEW UI TOGGLE METHOD ---
+    public void ToggleSolver()
+    {
+        if (CurrentState == AISolverState.Solving)
+        {
+            CurrentState = AISolverState.Paused;
+            autoPlay = false;
+            Debug.Log("<color=red>AI Solver Paused</color>");
+        }
+        else
+        {
+            CurrentState = AISolverState.Solving;
+            autoPlay = true;
+            Debug.Log("<color=green>AI Solver Activated</color>");
         }
     }
 
@@ -35,7 +59,6 @@ public class BusJamAI : MonoBehaviour
             yield break;
 
         isProcessing = true;
-
         Passenger bestPassenger = FindBestPassenger();
 
         if (bestPassenger != null)
@@ -45,36 +68,25 @@ public class BusJamAI : MonoBehaviour
             int slots = GetFreeWaitingSlotsCount();
             string busColor = gameManager.currentBus.Color.ToString();
 
-            // Threshold is 500. AI will perform moves it deems beneficial more easily.
-            if (score > 500f)
+            if (score > scoreThreshold)
             {
-                // Record the decision to the CSV before execution
                 if (logger != null)
                 {
-                    logger.LogAction(
-                        bestPassenger.Color.ToString(),
-                        score,
-                        slots,
-                        unblockVal,
-                        busColor,
-                        "Executed"
-                    );
+                    logger.LogAction(bestPassenger.Color.ToString(), score, slots, unblockVal, busColor, "Executed");
                 }
 
-                Debug.Log($"AI Balanced Attack: Taking {bestPassenger.Color}");
+                Debug.Log($"AI Level 7 Strategy: Taking {bestPassenger.Color} with score {score}");
                 gameManager.OnPassengerClicked(bestPassenger);
                 yield return new WaitForSeconds(actionDelay);
             }
             else
             {
-                // Log the rejection due to failing the threshold
                 if (logger != null) logger.LogAction(bestPassenger.Color.ToString(), score, slots, unblockVal, busColor, "Rejected_BelowThreshold");
-                Debug.LogWarning("AI: No meaningful move. If stuck, clear one blocker manually.");
+                Debug.LogWarning("AI: No safe move found. Scores are too low to risk clogging.");
             }
         }
         else
         {
-            // Log when no reachable path is found for any passenger
             if (logger != null) logger.LogAction("None", 0, GetFreeWaitingSlotsCount(), 0, "Unknown", "NO_PATH_FOUND");
         }
 
@@ -128,35 +140,31 @@ public class BusJamAI : MonoBehaviour
         bool isCurrentColor = (p.Color == gameManager.currentBus.Color);
         bool isNextColor = IsMatchingNextBus(p);
 
-        // --- 1. CURRENT BUS COLOR ---
         if (isCurrentColor)
         {
-            score += 20000f;
+            score += 25000f;
         }
         else
         {
-            // --- 2. UNBLOCK ANALYSIS (LEVEL 7 BALANCED) ---
             float unblockValue = CalculateUnblockValue(p);
             score += unblockValue;
 
-            // --- 3. AREA MANAGEMENT ---
-            if (freeSlots <= 1) return -500000f; // Absolute deadlock state.
+            if (freeSlots <= 1) return -500000f;
 
             if (isNextColor)
             {
-                // If it's the next bus color, add points if there is room (at least 3 slots).
-                score += (freeSlots >= 3) ? 3000f : 500f;
+                score += (freeSlots >= 3) ? 6000f : 1500f;
             }
             else
             {
-                // Penalize if the move doesn't unblock anything and is the wrong color.
-                if (unblockValue < 1000f) score -= 4000f;
+                if (unblockValue < 1000f) score -= 10000f;
             }
+
+            score += GetColorCountOnBoard(p.Color) * 150f;
         }
 
-        // --- 4. POSITION ---
         Vector2Int pos = gameManager.FindPassengerPosition(p);
-        score += pos.y * 50f;
+        score += pos.y * 75f;
 
         return score;
     }
@@ -166,7 +174,6 @@ public class BusJamAI : MonoBehaviour
         Vector2Int pos = gameManager.FindPassengerPosition(p);
         float value = 0;
 
-        // Check the entire column below this passenger.
         for (int y = pos.y + 1; y < gameManager.currentLevel.gridY; y++)
         {
             Tile belowTile = gameManager.grid[pos.x, y];
@@ -174,21 +181,30 @@ public class BusJamAI : MonoBehaviour
             {
                 Color belowColor = belowTile.CurrentPassenger.Color;
 
-                // Clearing the path for the current bus color is best.
                 if (belowColor == gameManager.currentBus.Color)
                 {
-                    value += 15000f;
+                    value += 18000f;
                     break;
                 }
-                // Clearing for the next bus color is also good.
                 else if (IsMatchingNextBus(belowTile.CurrentPassenger))
                 {
-                    value += 5000f;
+                    value += 6000f;
                     break;
                 }
             }
         }
         return value;
+    }
+
+    private int GetColorCountOnBoard(Color targetColor)
+    {
+        int count = 0;
+        foreach (Tile t in gameManager.grid)
+        {
+            if (t != null && t.CurrentPassenger != null && t.CurrentPassenger.Color == targetColor)
+                count++;
+        }
+        return count;
     }
 
     private bool IsMatchingNextBus(Passenger p)
