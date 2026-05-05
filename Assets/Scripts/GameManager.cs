@@ -16,24 +16,26 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject passengerPrefab;
     [SerializeField] private GameObject busPrefab;
     [SerializeField] private GameObject waitingAreaPrefab;
-    [SerializeField] private Color[] possibleColors;
+    [SerializeField] public Color[] possibleColors; // Set to public for AI color matching
     [SerializeField] private string levelsFolderName = "Levels";
     [SerializeField] private TextAsset[] levelDataFile;
     
     public Camera mainCamera;
     private float busDistance = 4f;
-    private Tile[,] grid;
-    private Bus currentBus;
+    // --- CHANGED TO PUBLIC FOR AI ACCESS
+    public Tile[,] grid;
+    public Bus currentBus;
+    public int currentBusIndex;
+    public LevelData currentLevel;
+    public bool isBusDeparting;
+    public WaitingSlot[] waitingSlots;
+    // ----------------------------------------
     private Bus nextBusPreview;
     private int remainingPassengers;
-    private int currentBusIndex;
-    private LevelData currentLevel;
     private const float TileSpacing = 1.1f;
     private List<Vector2Int> currentPath;
-    private WaitingSlot[] waitingSlots;
     private int currentLevelIndex;
     private string currentLevelName;
-    private bool isBusDeparting;
     private bool isLevelTransitioning;
     private readonly List<LevelSource> loadedLevels = new();
 
@@ -272,8 +274,19 @@ public class GameManager : MonoBehaviour
             waitingSlots[i] = new WaitingSlot { Position = position, Passenger = null};
         }
     }
-    
-    private int GetAvailableWaitingSlot()
+
+    //private int GetAvailableWaitingSlot()
+    //{
+    //    for (int i = 0; i < waitingSlots.Length; i++)
+    //    {
+    //        if (waitingSlots[i].Passenger == null)
+    //            return i;
+    //    }
+    //    return -1;
+    //}
+
+    // --- CHANGED TO PUBLIC FOR AI TO CHECK SLOTS 
+    public int GetAvailableWaitingSlot()
     {
         for (int i = 0; i < waitingSlots.Length; i++)
         {
@@ -416,7 +429,23 @@ public class GameManager : MonoBehaviour
     }
 
 
-    private Vector2Int FindPassengerPosition(Passenger passenger)
+    //private Vector2Int FindPassengerPosition(Passenger passenger)
+    //{
+    //    for (int x = 0; x < currentLevel.gridX; x++)
+    //    {
+    //        for (int y = 0; y < currentLevel.gridY; y++)
+    //        {
+    //            if (grid[x, y].CurrentPassenger == passenger)
+    //            {
+    //                return new Vector2Int(x, y);
+    //            }
+    //        }
+    //    }
+    //    return Vector2Int.zero;
+    //}
+
+    // --- CHANGED TO PUBLIC FOR AI POSITIONING
+    public Vector2Int FindPassengerPosition(Passenger passenger)
     {
         for (int x = 0; x < currentLevel.gridX; x++)
         {
@@ -431,24 +460,57 @@ public class GameManager : MonoBehaviour
         return Vector2Int.zero;
     }
 
-    private List<Vector2Int> FindPathToTop(Vector2Int start)
+    //private List<Vector2Int> FindPathToTop(Vector2Int start)
+    //{
+    //    var visited = new HashSet<Vector2Int>();
+    //    var queue = new Queue<Vector2Int>();
+    //    var cameFrom = new Dictionary<Vector2Int, Vector2Int>();
+
+    //    queue.Enqueue(start);
+    //    visited.Add(start);
+
+    //    while (queue.Count > 0)
+    //    {
+    //        Vector2Int current = queue.Dequeue();
+
+    //        if (current.y == 0) // Reached top row
+    //        {
+    //            return ReconstructPath(start, current, cameFrom);
+    //        }
+
+    //        foreach (Vector2Int next in GetValidMoves(current))
+    //        {
+    //            if (!visited.Contains(next))
+    //            {
+    //                visited.Add(next);
+    //                queue.Enqueue(next);
+    //                cameFrom[next] = current;
+    //            }
+    //        }
+    //    }
+
+    //    return null;
+    //}
+
+    // --- CHANGED TO PUBLIC FOR AI PATHFINDING ---[cite: 2, 5]
+    public List<Vector2Int> FindPathToTop(Vector2Int start)
     {
         var visited = new HashSet<Vector2Int>();
         var queue = new Queue<Vector2Int>();
         var cameFrom = new Dictionary<Vector2Int, Vector2Int>();
-        
+
         queue.Enqueue(start);
         visited.Add(start);
-        
+
         while (queue.Count > 0)
         {
             Vector2Int current = queue.Dequeue();
-            
+
             if (current.y == 0) // Reached top row
             {
                 return ReconstructPath(start, current, cameFrom);
             }
-            
+
             foreach (Vector2Int next in GetValidMoves(current))
             {
                 if (!visited.Contains(next))
@@ -459,7 +521,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-        
+
         return null;
     }
 
