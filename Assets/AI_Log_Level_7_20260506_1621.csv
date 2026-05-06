@@ -1,0 +1,499 @@
+﻿Timestamp;MoveID;SelectedColor;Score;FreeSlots;UnblockValue;TargetBus;Status
+16:21:24;1;RGBA(0.055, 0.218, 0.753, 0.000);10400000,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Executed
+16:21:24;2;RGBA(0.055, 0.218, 0.753, 0.000);10400000,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Executed
+16:21:24;3;RGBA(0.055, 0.218, 0.753, 0.000);10400000,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Executed
+16:21:25;4;RGBA(0.753, 0.055, 0.736, 0.000);10000300,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:26;5;RGBA(0.753, 0.055, 0.736, 0.000);10000300,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:26;6;RGBA(0.753, 0.055, 0.736, 0.000);10000300,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:27;7;RGBA(0.755, 0.055, 0.055, 0.000);11000000,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:27;8;RGBA(0.755, 0.055, 0.055, 0.000);11000300,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:28;9;RGBA(0.755, 0.055, 0.055, 0.000);10000600,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:29;10;RGBA(0.055, 0.218, 0.753, 0.000);11000300,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Executed
+16:21:29;11;RGBA(0.055, 0.218, 0.753, 0.000);10000600,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Executed
+16:21:29;12;RGBA(0.055, 0.218, 0.753, 0.000);10000000,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Executed
+16:21:31;13;RGBA(0.753, 0.055, 0.736, 0.000);10400000,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:31;14;RGBA(0.085, 0.753, 0.055, 0.000);9000300,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:31;15;RGBA(0.753, 0.055, 0.736, 0.000);10400300,00;4;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:31;16;RGBA(0.753, 0.055, 0.736, 0.000);10000600,00;4;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:33;17;RGBA(0.085, 0.753, 0.055, 0.000);10000600,00;5;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:33;18;RGBA(0.085, 0.753, 0.055, 0.000);10000000,00;5;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:34;19;RGBA(0.755, 0.055, 0.055, 0.000);11000000,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:34;20;RGBA(0.755, 0.055, 0.055, 0.000);11000300,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:35;21;RGBA(0.755, 0.055, 0.055, 0.000);10000600,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:36;22;RGBA(0.753, 0.055, 0.736, 0.000);11000000,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:36;23;RGBA(0.753, 0.055, 0.736, 0.000);10400300,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:36;24;RGBA(0.753, 0.055, 0.736, 0.000);10400000,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:37;25;RGBA(0.968, 1.000, 0.000, 0.000);11000300,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:38;26;RGBA(0.968, 1.000, 0.000, 0.000);10000600,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:38;27;RGBA(0.968, 1.000, 0.000, 0.000);10000600,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:39;28;RGBA(0.085, 0.753, 0.055, 0.000);10000000,00;5;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:40;29;RGBA(0.969, 0.619, 0.143, 0.000);8000000,00;5;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:40;30;RGBA(0.753, 0.055, 0.736, 0.000);2500000,00;4;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:40;31;RGBA(0.085, 0.753, 0.055, 0.000);11000300,00;3;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:40;32;RGBA(0.085, 0.753, 0.055, 0.000);10400600,00;3;0,00;RGBA(0.085, 0.753, 0.055, 0.000);Executed
+16:21:42;33;RGBA(0.969, 0.619, 0.143, 0.000);11000300,00;4;0,00;RGBA(0.969, 0.619, 0.143, 0.000);Executed
+16:21:42;34;RGBA(0.969, 0.619, 0.143, 0.000);10400600,00;4;0,00;RGBA(0.969, 0.619, 0.143, 0.000);Executed
+16:21:43;35;RGBA(0.753, 0.055, 0.736, 0.000);10000900,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:43;36;RGBA(0.753, 0.055, 0.736, 0.000);10000000,00;5;0,00;RGBA(0.753, 0.055, 0.736, 0.000);Executed
+16:21:44;37;RGBA(0.968, 1.000, 0.000, 0.000);10000900,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:45;38;RGBA(0.968, 1.000, 0.000, 0.000);10000300,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:45;39;RGBA(0.968, 1.000, 0.000, 0.000);10000300,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:46;40;RGBA(0.755, 0.055, 0.055, 0.000);12400000,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:46;41;RGBA(0.755, 0.055, 0.055, 0.000);12000600,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:47;42;RGBA(0.968, 1.000, 0.000, 0.000);8400900,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:47;43;RGBA(0.968, 1.000, 0.000, 0.000);7400600,00;4;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:47;44;RGBA(0.755, 0.055, 0.055, 0.000);10500600,00;3;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:49;45;RGBA(0.968, 1.000, 0.000, 0.000);10000300,00;5;0,00;RGBA(0.968, 1.000, 0.000, 0.000);Executed
+16:21:50;46;RGBA(0.969, 0.619, 0.143, 0.000);10400600,00;5;0,00;RGBA(0.969, 0.619, 0.143, 0.000);Executed
+16:21:50;47;RGBA(0.969, 0.619, 0.143, 0.000);10001200,00;5;0,00;RGBA(0.969, 0.619, 0.143, 0.000);Executed
+16:21:50;48;RGBA(0.969, 0.619, 0.143, 0.000);10000900,00;5;0,00;RGBA(0.969, 0.619, 0.143, 0.000);Executed
+16:21:51;49;RGBA(0.969, 0.619, 0.143, 0.000);10000900,00;5;0,00;RGBA(0.969, 0.619, 0.143, 0.000);Executed
+16:21:52;50;RGBA(0.000, 0.000, 0.000, 0.000);10000900,00;5;0,00;RGBA(0.000, 0.000, 0.000, 0.000);Executed
+16:21:52;51;RGBA(0.000, 0.000, 0.000, 0.000);10000900,00;5;0,00;RGBA(0.000, 0.000, 0.000, 0.000);Executed
+16:21:52;52;RGBA(0.000, 0.000, 0.000, 0.000);10000300,00;5;0,00;RGBA(0.000, 0.000, 0.000, 0.000);Executed
+16:21:53;53;RGBA(0.755, 0.055, 0.055, 0.000);10401200,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:54;54;RGBA(0.055, 0.218, 0.753, 0.000);8400600,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:54;55;RGBA(0.055, 0.218, 0.753, 0.000);8400600,00;5;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:54;56;RGBA(0.055, 0.218, 0.753, 0.000);7001500,00;4;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:55;57;RGBA(0.055, 0.218, 0.753, 0.000);7001200,00;4;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:55;58;RGBA(0.055, 0.218, 0.753, 0.000);10001200,00;3;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:55;59;RGBA(0.755, 0.055, 0.055, 0.000);10001200,00;3;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:56;60;RGBA(0.755, 0.055, 0.055, 0.000);10001200,00;2;0,00;RGBA(0.755, 0.055, 0.055, 0.000);Executed
+16:21:56;61;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;62;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;63;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;64;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;65;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;66;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;67;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;68;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;69;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;70;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;71;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;72;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;73;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;74;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;75;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;76;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;77;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;78;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;79;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;80;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;81;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;82;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;83;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;84;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;85;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;86;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;87;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;88;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;89;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;90;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;91;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;92;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;93;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;94;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;95;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:56;96;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;97;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;98;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;99;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;100;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;101;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;102;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;103;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;104;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;105;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;106;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;107;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;108;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;109;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;110;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;111;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;112;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;113;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;114;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;115;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;116;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;117;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;118;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;119;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;120;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;121;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;122;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;123;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;124;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;125;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;126;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;127;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;128;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;129;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;130;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;131;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;132;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;133;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;134;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;135;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;136;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;137;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;138;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;139;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;140;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;141;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;142;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;143;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;144;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;145;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;146;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;147;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;148;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;149;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;150;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;151;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;152;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;153;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;154;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;155;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;156;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;157;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;158;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;159;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;160;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;161;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;162;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;163;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;164;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;165;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;166;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;167;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;168;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;169;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;170;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;171;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;172;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;173;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;174;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;175;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;176;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:57;177;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;178;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;179;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;180;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;181;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;182;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;183;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;184;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;185;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;186;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;187;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;188;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;189;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;190;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;191;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;192;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;193;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;194;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;195;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;196;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;197;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;198;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;199;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;200;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;201;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;202;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;203;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;204;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;205;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;206;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;207;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;208;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;209;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;210;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;211;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;212;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;213;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;214;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;215;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;216;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;217;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;218;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;219;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;220;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;221;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;222;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;223;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;224;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;225;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;226;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;227;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;228;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;229;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;230;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;231;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;232;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;233;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;234;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;235;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;236;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;237;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;238;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;239;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;240;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;241;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;242;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;243;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;244;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;245;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;246;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;247;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;248;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;249;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;250;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;251;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;252;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;253;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;254;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;255;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;256;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;257;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:58;258;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;259;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;260;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;261;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;262;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;263;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;264;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;265;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;266;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;267;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;268;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;269;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;270;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;271;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;272;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;273;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;274;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;275;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;276;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;277;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;278;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;279;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;280;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;281;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;282;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;283;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;284;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;285;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;286;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;287;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;288;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;289;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;290;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;291;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;292;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;293;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;294;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;295;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;296;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;297;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;298;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;299;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;300;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;301;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;302;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;303;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;304;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;305;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;306;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;307;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;308;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;309;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;310;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;311;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;312;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;313;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;314;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;315;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;316;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;317;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;318;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;319;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;320;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;321;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;322;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;323;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;324;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;325;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;326;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;327;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;328;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;329;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;330;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;331;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;332;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;333;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;334;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;335;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;336;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;337;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;338;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:21:59;339;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;340;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;341;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;342;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;343;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;344;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;345;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;346;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;347;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;348;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;349;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;350;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;351;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;352;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;353;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;354;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;355;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;356;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;357;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;358;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;359;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;360;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;361;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;362;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;363;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;364;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;365;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;366;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;367;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;368;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;369;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;370;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;371;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;372;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;373;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;374;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;375;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;376;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;377;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;378;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;379;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;380;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;381;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;382;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;383;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;384;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;385;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;386;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;387;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;388;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;389;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;390;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;391;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;392;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;393;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;394;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;395;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;396;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;397;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;398;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;399;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;400;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;401;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;402;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;403;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;404;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;405;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;406;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;407;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;408;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;409;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;410;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;411;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;412;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;413;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;414;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;415;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;416;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;417;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;418;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:00;419;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;420;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;421;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;422;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;423;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;424;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;425;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;426;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;427;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;428;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;429;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;430;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;431;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;432;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;433;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;434;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;435;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;436;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;437;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;438;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;439;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;440;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;441;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;442;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;443;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;444;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;445;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;446;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;447;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;448;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;449;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;450;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;451;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;452;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;453;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;454;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;455;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;456;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;457;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;458;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;459;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;460;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;461;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;462;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;463;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;464;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;465;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;466;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;467;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;468;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;469;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;470;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;471;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;472;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;473;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;474;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;475;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;476;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;477;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;478;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;479;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;480;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;481;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;482;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;483;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;484;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;485;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;486;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;487;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;488;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;489;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;490;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;491;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;492;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;493;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;494;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;495;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;496;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;497;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety
+16:22:01;498;RGBA(0.055, 0.218, 0.753, 0.000);900,00;2;0,00;Wait;Rejected_Critical_Safety

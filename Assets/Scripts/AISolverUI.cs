@@ -16,12 +16,15 @@ public class AISolverUI : MonoBehaviour
 
     private void Update()
     {
-        // UI Update: Write the current state of the AI ​​to the screen 
-        if (aiSolver != null)
-        {
+        if (aiSolver == null) return;
+
+        if (statusText != null)
             statusText.text = $"AI STATUS: {aiSolver.CurrentState}";
-            statusIcon.color = aiSolver.CurrentState == AISolverState.Solving ? Color.green : Color.red;
-        }
+
+        if (statusIcon != null)
+            statusIcon.color = aiSolver.CurrentState == AISolverState.Solving
+                ? Color.green
+                : Color.red;
     }
 
     private void OnButtonClicked()

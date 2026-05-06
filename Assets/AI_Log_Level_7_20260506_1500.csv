@@ -1,0 +1,16 @@
+﻿Timestamp;MoveID;SelectedColor;Score;FreeSlots;UnblockValue;TargetBus;Status
+15:00:13;1;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:13;2;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:14;3;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:14;4;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:15;5;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:15;6;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:16;7;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:16;8;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:17;9;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:17;10;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:18;11;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:20;12;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:21;13;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:21;14;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
+15:00:22;15;None;0,00;5;0,00;RGBA(0.055, 0.218, 0.753, 0.000);Rejected_NoSafePath
