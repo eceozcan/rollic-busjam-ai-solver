@@ -1,27 +1,37 @@
-#### Rollic AI GamePlay Agent Case Study Project
+# Bus Jam AI Solver 🚌🤖
 
-This is a prototype version of Bus Jam developed with Unity 6, it's meant to be simple code compared to real game projects. Please check out Bus Jam on the App Store or Google Play for the full game experience before starting this project to have an idea about the game.
+An autonomous AI agent developed for a custom **Unity 6** prototype of the popular puzzle game *Bus Jam*. This project demonstrates a hybrid approach between traditional search algorithms and heuristic-based strategic reasoning to solve complex resource management problems in real-time mobile environments.
 
-### Game Description
+## 🚀 Key Results
+* **Level Success:** Successfully solves **6 out of 7** levels fully autonomously.
+* **Performance:** Highly optimized to run at **60 FPS** on the Unity Main Thread.
+* **Engineering Evolution:** Iterative development from a reactive baseline (v1.0) to a predictive strategic agent (v4.0).
 
-Game is a simple game where player tap on passengers on the grid to move them to the same colored bus. If there is no same colored passenger available, 5 slot waiting area can be used. Level is completed when all passengers are moved to the buses. Game is lost if there is no empty slot in the waiting area. 
+## 🧠 The Approach: Heuristic-based Probabilistic Backtracking
+Instead of using resource-heavy brute-force search (like BFS/DFS), I developed a **Heuristic-based Simulation** model. This allows the AI to mimic high-level human strategic thinking while respecting mobile hardware constraints.
 
+### Core Features:
+* **Master Heuristic Scoring:** Evaluates every possible move based on **Unblock Value** (prioritizing tiles that hide critical colors) and **Predictive Matching** (accounting for the next 2 buses in the queue).
+* **Probabilistic Look-ahead:** When slot capacity becomes critical ($\le2$), the agent simulates 8-12 moves ahead to calculate the "survival probability" of a path.
+* **Dynamic Risk Thresholding:** A custom mechanism that increases risk tolerance when a stalemate is detected, allowing for "calculated aggression" to unblock the grid.
 
-### Project Goal
+## 🛠 Tech Stack
+* **Engine:** Unity 6
+* **Language:** C#
+* **Architecture:** State-driven Autonomous Agent (`AISolverState`)
+* **Analytics:** Custom CSV Logging System for move efficiency and heuristic stability analysis.
 
-You are expected to implement a AI agent using Open AI API to play the game. The agent should be able to play the game without any human intervention. You need to figure out how to use Open AI API inside the project and implement the agent. Also, you need to write prompts to make the model to play the game.
+## 📈 Engineering Insight (The "Level 7" Case)
+A significant part of this project involved analyzing **Level 7**, which presents a massive difficulty spike. By documenting why both the agent and human players struggle with this level, I utilized the AI as a **QA Validation Tool** to identify level design bottlenecks and report "mathematical deadlocks."
 
-### Project Requirements
+---
 
-- You need to implement the AI agent using Open AI API. Open AI Key provided at the drive folder.
-- It is expected that agent should be able to play the game without any human intervention.
-- There are 6 levels inside project, agent should be able to complete at least 5 of them. 
+## 🎮 How to Use
+1. Open the project in **Unity 6**.
+2. Locate the **"AI Solver"** button in the custom Inspector/Editor UI.
+3. Click to activate the autonomous mode and watch the agent analyze the grid and solve levels in real-time.
 
-### Extra Points
+---
 
-- You can implement logging mechanism to log the moves of the agent and game state to analyze the agent's performance. It is not mandatory but it will be a plus. You can use csv files or SQLite for logging.
-
-
-If you have any questions, please feel free to ask. You have 1 week of time after you've got the project.
-
-Good Luck!
+**Author:** Ece Özcan  
+**Focus:** AI Engineering & Game Development  
