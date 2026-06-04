@@ -2,10 +2,8 @@
 
 An autonomous AI agent developed for a custom **Unity 6** prototype of the popular puzzle game *Bus Jam*. This project demonstrates a hybrid approach between traditional search algorithms and heuristic-based strategic reasoning to solve complex resource management problems in real-time mobile environments.
 
-## 🎮 Gameplay & UI Preview
+## 🎮 Gameplay
 
-| Autonomous Decision Engine in Action | Custom Inspector UI / Grid State |
-|---|---|
 |  <img src="aisolver.png" width="100%" alt="Bus Jam AI Solver Gameplay"/> | <video src="https://github.com/eceozcan/rollic-busjam-ai-solver/raw/main/AIBusJam.mp4" width="100%" controls></video> |
 
 ## 🚀 Key Results
