@@ -4,7 +4,7 @@ An autonomous AI agent developed for a custom **Unity 6** prototype of the popul
 
 ## 🎮 Gameplay
 
-|  <img src="aisolver.png" width="100%" alt="Bus Jam AI Solver Gameplay"/> | <video src="https://github.com/eceozcan/rollic-busjam-ai-solver/raw/main/AIBusJam.mp4" width="100%" controls></video> |
+<img src="aisolver.png" width="100%" alt="Bus Jam AI Solver Gameplay"/> | <video src="https://github.com/eceozcan/rollic-busjam-ai-solver/raw/main/AIBusJam.mp4" width="100%" controls></video> 
 
 ## 🚀 Key Results
 * **Level Success:** Successfully solves **6 out of 7** levels fully autonomously.
