@@ -25,7 +25,7 @@ Instead of using resource-heavy brute-force search (like BFS/DFS), I developed a
 
 The comprehensive engineering journey, algorithmic trade-offs, and empirical data analysis of this project are documented in the official technical report.
 
-### 📑 [Read the Full Technical Case Study Report (PDF)](https://github.com/eceozcan/rollic-busjam-ai-solver/blob/main/AIBusJam%20Case%20Study%20Report.docx_4.pdf)
+### 📑 [Read the Full Technical Case Study Report (PDF)](https://github.com/eceozcan/rollic-busjam-ai-solver/blob/main/AIBusJam%20Case%20Study%20Report.docx.pdf)
 
 ### 📊 Key Highlights from the Report:
 * **Algorithmic Evolution (v1.0 to v4.0):** Iterative refinement of heuristic scoring shifted the agent from trial-and-error to surgical precision, boosting decision efficiency from **13.89% to 54.30%**.
