@@ -3,6 +3,9 @@
 An autonomous AI agent developed for a custom **Unity 6** prototype of the popular puzzle game *Bus Jam*. This project demonstrates a hybrid approach between traditional search algorithms and heuristic-based strategic reasoning to solve complex resource management problems in real-time mobile environments.
 
 ## 🎮 Gameplay
+![Bus Jam AI Solver solving a level autonomously](busjam-solver-demo.gif)
+
+> **Solves 6 of 7 levels fully autonomously, at 60 FPS on Unity's main thread.**
 
 <img src="aisolver.png" width="100%" alt="Bus Jam AI Solver Gameplay"/>
 
